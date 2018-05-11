@@ -1,0 +1,985 @@
+// File: aSPad3.txt
+// Data file for SeaPort projects
+// Date: Wed Jan 17 19:22:09 EST 2018
+// parameters: 8 15 20 20 5 30
+//   ports, docks, pships, cships, jobs, persons
+
+// port   name index parent(null)
+//    port   <string> <int> <int>
+port Xiaohudao 10004 0
+port Kakinada 10003 0
+port Maceio 10007 0
+port Linyi 10000 0
+port Salzburg 10001 0
+port Sparrow_Point 10006 0
+port Puerto_Plata 10002 0
+port Gemlik 10005 0
+
+// dock   name index parent(port)
+//    dock   <string> <int> <int>
+  dock Pier_31 20031 10004 30080
+  dock Pier_53 20053 10006 30121
+  dock Pier_55 20055 10006 30123
+  dock Pier_39 20039 10004 30088
+  dock Pier_10 20010 10001 30022
+  dock Pier_16 20016 10002 30041
+  dock Pier_37 20037 10004 30086
+  dock Pier_45 20045 10004 30094
+  dock Pier_19 20019 10002 30044
+  dock Pier_0 20000 10000 30000
+  dock Pier_48 20048 10005 30101
+  dock Pier_6 20006 10000 30006
+  dock Pier_60 20060 10006 30128
+  dock Pier_64 20064 10007 30142
+  dock Pier_40 20040 10004 30089
+  dock Pier_12 20012 10001 30024
+  dock Pier_49 20049 10005 30102
+  dock Pier_15 20015 10002 30040
+  dock Pier_4 20004 10000 30004
+  dock Pier_35 20035 10004 30084
+  dock Pier_13 20013 10001 30025
+  dock Pier_3 20003 10000 30003
+  dock Pier_61 20061 10006 30129
+  dock Pier_29 20029 10003 30068
+  dock Pier_30 20030 10003 30069
+  dock Pier_18 20018 10002 30043
+  dock Pier_66 20066 10007 30144
+  dock Pier_59 20059 10006 30127
+  dock Pier_33 20033 10004 30082
+  dock Pier_17 20017 10002 30042
+  dock Pier_8 20008 10001 30020
+  dock Pier_23 20023 10003 30062
+  dock Pier_21 20021 10003 30060
+  dock Pier_38 20038 10004 30087
+  dock Pier_58 20058 10006 30126
+  dock Pier_7 20007 10000 30007
+  dock Pier_22 20022 10003 30061
+  dock Pier_9 20009 10001 30021
+  dock Pier_51 20051 10005 30104
+  dock Pier_2 20002 10000 30002
+  dock Pier_56 20056 10006 30124
+  dock Pier_67 20067 10007 30145
+  dock Pier_14 20014 10001 30026
+  dock Pier_11 20011 10001 30023
+  dock Pier_36 20036 10004 30085
+  dock Pier_69 20069 10007 30147
+  dock Pier_62 20062 10007 30140
+  dock Pier_5 20005 10000 30005
+  dock Pier_68 20068 10007 30146
+  dock Pier_41 20041 10004 30090
+  dock Pier_52 20052 10006 30120
+  dock Pier_25 20025 10003 30064
+  dock Pier_57 20057 10006 30125
+  dock Pier_54 20054 10006 30122
+  dock Pier_65 20065 10007 30143
+  dock Pier_42 20042 10004 30091
+  dock Pier_26 20026 10003 30065
+  dock Pier_50 20050 10005 30103
+  dock Pier_44 20044 10004 30093
+  dock Pier_1 20001 10000 30001
+  dock Pier_20 20020 10002 30045
+  dock Pier_34 20034 10004 30083
+  dock Pier_28 20028 10003 30067
+  dock Pier_32 20032 10004 30081
+  dock Pier_43 20043 10004 30092
+  dock Pier_46 20046 10004 30095
+  dock Pier_47 20047 10005 30100
+  dock Pier_63 20063 10007 30141
+  dock Pier_27 20027 10003 30066
+  dock Pier_24 20024 10003 30063
+
+// pship  name index parent(dock/port) weight length width draft numPassengers numRooms numOccupied
+//    pship  <string> <int> <int> <double> <double> <double> <double> <int> <int> <int>
+    pship            Cogitates 30045 20020 94.47 114.17 111.01 16.61 584 231 231
+    pship       Editorializers 30078 10003 177.52 482.44 126.77 37.94 436 309 218
+    pship             Saucepan 30015 10000 192.27 301.98 66.82 42.61 1339 922 669
+    pship          Reverencers 30018 10000 94.63 422.66 90.21 34.06 2233 828 828
+    pship              Lyingly 30007 20007 98.08 355.76 32.32 40.16 2557 1019 1019
+    pship          Syndicating 30035 10001 220.88 438.67 85.86 25.71 491 462 245
+    pship            Pavilions 30041 20016 128.26 135.22 59.92 34.98 3566 925 925
+    pship          Superlative 30049 10002 238.78 151.39 82.46 26.46 2764 908 908
+    pship            Usualness 30083 20034 56.98 430.49 86.56 43.59 976 273 273
+    pship               Zenana 30159 10007 149.49 456.55 125.99 38.23 2946 857 857
+    pship            Diverging 30098 10004 215.32 340.04 126.93 33.44 1304 1052 652
+    pship             Moulders 30132 10006 127.55 246.28 35.18 32.50 187 271 93
+    pship              Grueled 30099 10004 131.75 489.81 62.06 16.43 701 307 307
+    pship            Humongous 30140 20062 150.68 234.08 104.52 26.28 1062 406 406
+    pship             Detacher 30065 20026 95.56 328.78 63.92 22.01 95 438 47
+    pship         Oscillometry 30048 10002 226.95 126.21 63.05 37.08 459 247 229
+    pship            Abolished 30084 20035 177.84 426.03 79.64 40.60 3000 844 844
+    pship              Plucked 30106 10005 121.19 321.95 101.28 37.45 1216 444 444
+    pship            Eugenical 30069 20030 75.43 384.45 112.57 39.97 133 116 66
+    pship           Grovelling 30074 10003 192.31 205.63 119.47 16.06 1520 786 760
+    pship            Crapulous 30090 20041 187.11 353.06 79.75 33.37 248 365 124
+    pship           Diminishes 30009 10000 160.14 250.68 129.72 24.88 1062 663 531
+    pship              Noising 30003 20003 103.65 246.36 48.64 29.30 163 340 81
+    pship             Sandiest 30008 10000 166.45 403.87 106.81 39.45 1622 762 762
+    pship           Lightships 30133 10006 147.75 473.73 50.25 38.79 400 115 115
+    pship            Quadruped 30063 20024 124.83 441.92 125.04 29.79 169 403 84
+    pship              Useable 30044 20019 233.65 275.82 51.30 25.85 114 153 57
+    pship          Remonstrate 30051 10002 169.32 163.29 58.54 24.87 1536 870 768
+    pship                Final 30107 10005 246.75 239.10 93.28 36.44 292 230 146
+    pship          Multivalent 30019 10000 70.85 325.88 49.93 39.38 1859 474 474
+    pship              Dawning 30036 10001 155.23 454.41 91.78 32.85 554 288 277
+    pship        Thoroughbreds 30057 10002 243.11 228.40 124.60 24.06 766 599 383
+    pship            Intricate 30021 20009 160.90 321.52 72.58 23.02 3322 986 986
+    pship                 Next 30058 10002 137.64 457.90 44.09 29.96 2600 712 712
+    pship                Hefty 30075 10003 146.16 357.82 111.67 38.80 105 611 52
+    pship              Benched 30014 10000 237.69 129.97 88.81 28.93 95 118 47
+    pship        Approximating 30039 10001 184.20 301.97 84.30 32.85 2206 616 616
+    pship             Debuting 30077 10003 181.74 363.45 127.45 41.61 399 156 156
+    pship             Helmless 30108 10005 206.47 210.80 80.62 43.27 358 1027 179
+    pship             Inquired 30002 20002 86.89 212.89 35.99 21.48 891 343 343
+    pship            Hydrolyze 30156 10007 159.03 107.72 111.09 20.13 40 848 20
+    pship         Definitively 30103 20050 125.70 165.02 129.94 34.53 830 1088 415
+    pship              Dogtrot 30053 10002 223.60 108.43 113.04 29.93 1015 257 257
+    pship           Overexerts 30030 10001 170.38 493.27 31.78 28.56 563 169 169
+    pship             Kitsches 30126 20058 55.58 395.30 112.08 39.98 1826 916 913
+    pship               Phases 30119 10005 126.00 407.30 75.47 27.61 147 160 73
+    pship            Jacketing 30062 20023 84.63 415.42 64.91 35.06 418 373 209
+    pship            Trenching 30068 20029 60.04 462.07 128.24 22.27 1438 1005 719
+    pship               Copies 30055 10002 125.21 231.18 109.11 26.18 1336 756 668
+    pship          Inalienable 30054 10002 233.46 386.59 33.59 20.49 592 733 296
+    pship           Evergreens 30146 20068 137.07 441.96 44.62 38.77 451 276 225
+    pship         Deliverables 30097 10004 206.52 416.73 103.14 27.84 1229 1009 614
+    pship               Radome 30138 10006 218.57 166.50 41.07 16.04 565 1031 282
+    pship          Delightedly 30123 20055 162.28 165.49 97.69 35.27 2853 1013 1013
+    pship            Larcenist 30151 10007 200.98 298.86 44.52 31.54 498 978 249
+    pship              Pshawed 30104 20051 122.36 493.88 40.38 26.73 1686 784 784
+    pship         Glassblowing 30091 20042 71.11 456.81 94.23 33.02 711 261 261
+    pship             Pillages 30017 10000 84.33 280.78 102.06 35.02 170 326 85
+    pship               Ullage 30129 20061 68.80 330.33 85.96 34.49 653 1067 326
+    pship                Junky 30149 10007 105.69 111.25 74.50 42.22 1159 855 579
+    pship            Ineffable 30076 10003 245.14 179.10 87.65 31.08 2984 1070 1070
+    pship             Holdouts 30010 10000 93.76 145.10 102.92 34.06 1046 764 523
+    pship              Fighter 30127 20059 182.32 157.08 41.26 19.89 264 109 109
+    pship           Recognizer 30023 20011 198.64 134.61 97.91 33.40 1177 824 588
+    pship               Devoid 30033 10001 199.60 309.33 38.44 39.76 2295 731 731
+    pship            Chirpiest 30052 10002 98.48 338.41 102.86 26.54 1102 648 551
+    pship             Ravagers 30114 10005 71.00 464.99 52.10 33.12 2115 915 915
+    pship                Babes 30136 10006 248.57 369.27 119.87 16.82 175 685 87
+    pship               Seduce 30012 10000 234.22 484.65 49.04 35.14 984 447 447
+    pship             Surtaxes 30061 20022 106.81 211.35 59.50 24.97 359 725 179
+    pship          Illimitably 30111 10005 101.42 413.35 80.29 21.35 2197 667 667
+    pship             Halidome 30004 20004 211.44 482.82 110.80 40.77 754 266 266
+    pship              Gonadal 30081 20032 96.30 258.04 32.00 35.46 89 214 44
+    pship           Monitories 30032 10001 194.36 447.76 76.82 44.20 457 526 228
+    pship              Minutia 30059 10002 216.79 304.23 76.18 32.58 308 201 154
+    pship                Somas 30134 10006 90.56 496.36 37.54 43.93 193 388 96
+    pship             Pyramids 30006 20006 60.93 420.16 99.47 34.61 1143 343 343
+    pship          Uncorrected 30092 20043 54.96 178.59 92.37 41.33 468 183 183
+    pship               Thrash 30029 10001 144.93 210.61 92.66 35.58 48 333 24
+    pship             Muezzins 30013 10000 54.42 488.92 48.76 44.28 731 613 365
+    pship        Procompromise 30100 20047 93.51 471.40 128.30 22.54 537 386 268
+    pship          Liberalized 30116 10005 242.76 144.65 76.21 32.77 2044 647 647
+    pship              Sunbeam 30150 10007 111.66 143.93 50.82 44.26 2417 677 677
+    pship            Magnetons 30147 20069 155.36 466.46 124.99 42.15 789 435 394
+    pship            Barometer 30154 10007 241.51 486.39 113.31 18.35 569 926 284
+    pship             Segments 30102 20049 203.74 453.22 69.87 33.59 1869 895 895
+    pship             Surliest 30037 10001 78.71 291.98 55.27 15.33 625 536 312
+    pship           Mastheaded 30152 10007 194.56 260.61 37.91 17.97 1805 795 795
+    pship              Osmiums 30056 10002 204.54 282.03 95.44 24.51 1735 798 798
+    pship              Briskly 30046 10002 167.68 129.23 95.33 40.83 1647 898 823
+    pship             Solicits 30025 20013 222.20 499.54 104.43 34.77 443 186 186
+    pship            Declaimer 30148 10007 151.93 135.89 43.05 37.10 1757 970 878
+    pship        Overabundance 30105 10005 162.03 487.19 77.55 27.50 1015 525 507
+    pship              Caducei 30042 20017 50.46 208.24 126.98 38.71 594 683 297
+    pship              Eveners 30020 20008 98.67 490.76 31.41 17.24 765 494 382
+    pship               Mimics 30093 20044 125.33 360.44 119.70 15.80 265 667 132
+    pship            Potencies 30109 10005 186.04 172.48 81.31 21.98 2100 586 586
+    pship           Contractor 30153 10007 193.99 425.28 111.25 20.82 840 421 420
+    pship                Hiked 30144 20066 81.96 307.09 115.80 25.23 75 969 37
+    pship       Unsystematical 30121 20053 128.80 136.95 68.50 34.67 141 326 70
+    pship         Catheterized 30131 10006 171.93 459.37 69.64 42.88 1300 1073 650
+    pship                Zoons 30145 20067 238.90 373.55 75.40 36.82 1359 400 400
+    pship              Wedgies 30047 10002 55.47 264.73 30.24 34.16 2311 655 655
+    pship           Iatrogenic 30082 20033 121.27 294.78 30.49 15.19 1060 872 530
+    pship         Neutralizing 30073 10003 186.08 271.54 113.55 21.21 912 586 456
+    pship            Charismas 30000 20000 220.01 189.68 109.30 44.42 243 380 121
+    pship     Imperturbability 30011 10000 153.69 278.71 117.06 24.35 492 216 216
+    pship                Armor 30158 10007 79.61 153.07 61.37 19.58 2883 820 820
+    pship               Earthy 30124 20056 98.23 188.23 104.16 19.88 2793 880 880
+    pship             Freshman 30117 10005 84.42 405.57 69.66 37.52 2615 1086 1086
+    pship         Telegraphing 30001 20001 156.86 348.06 81.90 25.57 2842 991 991
+    pship               Veldts 30095 20046 77.35 281.52 106.85 25.73 1972 778 778
+    pship            Tightened 30130 10006 108.10 111.57 108.22 40.75 617 839 308
+    pship              Seducer 30050 10002 149.12 243.17 92.86 36.50 1883 680 680
+    pship              Reincur 30101 20048 106.95 225.67 94.43 20.90 189 338 94
+    pship            Captained 30005 20005 82.24 366.44 30.53 41.53 1371 1063 685
+    pship               Serial 30118 10005 167.83 281.31 116.64 29.20 259 157 129
+    pship              Obelisk 30043 20018 94.19 283.26 53.55 40.18 294 184 147
+    pship        Preannouncing 30094 20045 182.01 399.15 38.36 35.29 284 127 127
+    pship           Litigators 30071 10003 123.10 110.75 104.42 26.09 1173 1085 586
+    pship         Subschedules 30028 10001 73.64 190.23 123.17 27.26 291 170 145
+    pship               Gasman 30064 20025 88.59 193.28 40.29 24.73 26 929 13
+    pship               Trigon 30072 10003 67.20 376.34 127.00 36.34 2569 917 917
+    pship            Eiderdown 30088 20039 141.62 497.36 108.94 36.50 6 1025 3
+    pship              Academy 30067 20028 92.43 228.83 100.20 15.98 1225 1017 612
+    pship          Counterplea 30079 10003 146.85 170.67 72.47 43.81 3495 957 957
+    pship           Varicosity 30120 20052 122.53 466.00 70.13 38.85 608 181 181
+    pship            Unseating 30122 20054 115.44 401.05 52.68 22.40 2720 865 865
+    pship              Reducer 30128 20060 151.57 105.24 99.51 26.58 1779 743 743
+    pship             Broidery 30060 20021 236.60 226.24 124.79 25.82 1085 544 542
+    pship             Replated 30027 10001 167.23 194.25 74.48 24.45 1013 349 349
+    pship                  Bag 30112 10005 235.34 362.50 110.07 15.12 3031 803 803
+    pship            Homegrown 30086 20037 191.46 188.90 51.77 36.31 418 328 209
+    pship      Psychologically 30016 10000 83.63 314.42 99.18 16.29 463 345 231
+    pship             Crusados 30070 10003 213.27 414.01 51.94 34.49 2009 607 607
+    pship         Persuasively 30096 10004 228.06 157.53 38.22 32.58 733 258 258
+    pship             Pygmyish 30022 20010 71.36 455.49 127.35 25.03 699 543 349
+    pship                Igloo 30024 20012 57.57 455.23 86.52 29.75 2467 640 640
+    pship           Tendencies 30085 20036 60.97 132.61 125.00 27.39 571 778 285
+    pship             Raggedly 30141 20063 220.14 299.85 65.71 30.71 350 293 175
+    pship         Misgoverning 30066 20027 202.88 499.20 71.70 25.88 454 201 201
+    pship     Rationalizations 30135 10006 218.87 110.46 42.06 20.20 1920 604 604
+    pship                Mashy 30026 20014 89.24 258.66 108.34 16.12 1842 463 463
+    pship               Churls 30139 10006 79.46 458.31 103.85 33.07 195 257 97
+    pship            Budgeting 30110 10005 205.30 258.86 72.78 32.14 1706 863 853
+    pship          Sympathetic 30157 10007 179.12 181.10 87.59 19.26 970 257 257
+    pship              Brioche 30031 10001 73.19 148.52 91.43 31.55 315 981 157
+    pship            Calfskins 30143 20065 195.97 250.41 79.45 36.05 240 530 120
+    pship                Asper 30089 20040 166.41 443.97 102.65 42.32 474 667 237
+    pship             Idolizer 30113 10005 52.94 216.62 58.04 35.50 2330 736 736
+    pship         Generalships 30087 20038 158.15 125.90 103.24 20.77 940 410 410
+    pship            Innuendos 30038 10001 86.99 247.13 39.30 38.78 1416 690 690
+    pship             Seaboard 30125 20057 88.22 110.78 45.69 34.15 2298 868 868
+    pship           Marsupials 30155 10007 127.03 436.82 57.58 18.93 2800 1046 1046
+    pship            Puddlings 30040 20015 117.16 417.35 34.10 19.43 2420 783 783
+    pship                Outed 30142 20064 82.80 327.33 56.01 21.08 1613 948 806
+    pship           Languished 30115 10005 138.99 462.32 40.86 25.55 1909 1090 954
+    pship               Orange 30034 10001 242.53 245.93 114.46 41.93 1658 980 829
+    pship          Infrangible 30080 20031 160.09 424.29 56.43 20.58 1236 547 547
+    pship              Datives 30137 10006 242.88 126.77 96.76 22.81 153 1073 76
+
+// cship  name index parent(dock/port) weight length width draft cargoWeight cargoVolume cargoValue
+//    cship  <string> <int> <int> <double> <double> <double> <double> <double> <double> <double>
+    cship          Arbitrament 40153 10007 139.28 467.45 71.51 39.60 147.45 140.45 200.10
+    cship              Casuist 40123 10006 246.49 304.56 42.93 38.62 210.06 192.78 354.40
+    cship        Contentedness 40031 10001 185.20 300.26 123.54 24.33 88.21 170.35 398.23
+    cship           Dairymaids 40122 10006 102.21 298.58 126.57 38.38 52.28 154.52 417.31
+    cship                 Geom 40061 10003 173.29 140.04 126.47 25.15 98.30 190.82 891.00
+    cship            Forelimbs 40087 10004 54.29 381.30 37.35 27.99 133.04 117.66 825.01
+    cship            Skiddiest 40077 10003 227.76 411.03 39.08 29.68 48.19 136.98 169.60
+    cship            Belittles 40140 10007 108.10 159.57 79.65 20.16 147.24 143.96 154.32
+    cship            Ragouting 40101 10005 66.70 471.57 42.98 31.33 171.80 146.62 187.58
+    cship             Highjack 40007 10000 217.28 179.73 73.67 39.34 170.27 157.47 296.78
+    cship             Eternize 40020 10001 223.09 489.53 69.30 38.57 174.57 117.30 422.36
+    cship               Uretic 40000 10000 114.29 121.63 78.03 40.47 139.90 189.29 807.65
+    cship             Cuisines 40019 10000 161.92 221.19 90.17 20.09 35.23 140.00 438.20
+    cship              Amatory 40024 10001 68.27 471.67 86.19 44.21 26.05 173.27 619.59
+    cship                   Ny 40074 10003 51.74 119.18 85.20 31.13 100.41 162.49 477.15
+    cship               Valued 40002 10000 125.74 121.25 66.56 28.76 146.58 156.31 299.64
+    cship                  Bps 40126 10006 62.16 347.34 97.10 27.86 113.36 148.89 867.41
+    cship                Bloom 40004 10000 135.71 247.83 70.24 40.86 91.39 153.72 150.76
+    cship              Cliques 40081 10004 149.94 148.27 78.46 40.96 141.26 143.95 896.08
+    cship             Satiated 40080 10004 153.02 303.75 107.19 37.33 40.77 109.32 670.13
+    cship             Gestures 40149 10007 72.22 479.33 126.83 16.19 187.25 131.80 506.44
+    cship              Fowling 40066 10003 111.90 237.34 122.32 21.54 68.32 191.61 989.47
+    cship              Rebills 40110 10005 106.46 337.19 85.10 17.82 31.63 192.45 911.63
+    cship         Pennyweights 40078 10003 121.82 426.62 47.03 21.89 132.04 131.01 414.47
+    cship                Squat 40142 10007 237.35 175.60 34.53 19.07 194.51 141.54 294.92
+    cship                Wahoo 40089 10004 86.40 283.89 79.89 28.95 120.41 185.40 154.06
+    cship             Indexers 40033 10001 123.47 363.04 115.32 28.34 25.66 193.17 517.03
+    cship          Ionizations 40084 10004 227.32 250.53 99.26 16.57 165.82 110.54 878.80
+    cship                 Dews 40115 10005 209.97 303.64 61.87 22.27 172.51 164.24 636.94
+    cship        Retranslating 40107 10005 55.74 186.53 103.52 30.40 182.34 103.94 358.56
+    cship          Footbridges 40133 10006 90.40 151.00 81.14 35.94 78.49 106.65 935.58
+    cship             Bindings 40137 10006 239.36 478.25 44.94 44.34 174.69 195.82 321.07
+    cship               Jumble 40105 10005 67.15 106.86 83.80 21.39 139.86 134.82 382.09
+    cship            Innocence 40127 10006 159.38 199.92 68.29 26.28 219.54 124.32 108.31
+    cship           Effeminate 40158 10007 120.42 107.37 85.36 17.84 22.03 128.01 216.78
+    cship          Tobacconist 40159 10007 206.20 373.81 88.10 41.40 117.91 106.00 133.91
+    cship                Phono 40039 10001 121.98 473.74 66.83 43.39 33.03 122.37 309.45
+    cship           Diminishes 40120 10006 96.29 429.47 82.34 25.10 63.56 103.74 540.13
+    cship          Revocations 40144 10007 194.45 453.25 87.33 28.40 146.89 107.50 283.38
+    cship               Footed 40156 10007 92.35 480.24 103.30 20.26 193.40 133.43 309.66
+    cship              Winesop 40104 10005 106.39 480.28 36.25 28.65 40.73 128.51 449.27
+    cship           Secularize 40113 10005 195.80 108.02 85.96 23.93 88.57 165.86 980.65
+    cship            Foaminess 40054 10002 67.71 105.76 125.94 18.08 57.54 127.58 10.92
+    cship             Instance 40096 10004 64.81 293.84 121.98 26.29 31.17 140.27 567.43
+    cship            Saturants 40041 10002 95.13 111.33 69.87 15.85 91.33 171.35 747.95
+    cship               Chords 40121 10006 182.43 481.52 41.05 29.52 207.02 104.20 338.44
+    cship               Dimity 40157 10007 101.55 446.51 86.99 44.28 101.54 100.07 696.29
+    cship             Firetrap 40085 10004 80.56 187.50 91.44 37.78 140.40 172.49 164.54
+    cship               Trauma 40040 10002 66.44 221.36 76.23 27.08 87.85 187.40 718.17
+    cship            Promisees 40154 10007 54.20 132.58 52.77 21.55 69.21 195.65 34.88
+    cship           Adsorption 40108 10005 65.95 470.20 67.32 27.00 36.97 156.93 68.96
+    cship          Unconnected 40065 10003 146.33 370.22 53.95 26.92 87.42 188.83 813.46
+    cship             Playroom 40037 10001 203.52 382.07 114.04 16.99 36.84 118.46 354.83
+    cship              Laugher 40053 10002 154.44 436.52 123.93 29.39 141.97 170.22 119.90
+    cship          Confinement 40049 10002 78.20 138.14 80.18 19.85 172.48 127.76 787.19
+    cship          Charlemagne 40131 10006 188.85 265.66 78.73 29.02 23.32 139.20 750.86
+    cship        Reoccurrences 40050 10002 231.17 136.89 119.20 23.88 93.18 146.95 819.37
+    cship       Disenchantment 40119 10005 64.01 295.98 38.24 42.29 69.91 106.15 535.69
+    cship              Battiks 40017 10000 143.53 173.72 49.30 30.23 48.41 101.62 689.84
+    cship            Inpouring 40014 10000 130.11 179.27 71.18 44.87 172.84 116.83 1003.51
+    cship         Interrelates 40111 10005 96.16 365.19 95.08 17.38 73.05 175.20 904.11
+    cship          Trespassory 40068 10003 183.40 344.38 71.09 25.49 31.41 154.52 806.44
+    cship             Hibachis 40118 10005 182.62 324.55 118.21 39.59 70.01 195.50 1001.54
+    cship           Jackfishes 40009 10000 164.87 226.24 55.66 24.21 60.04 166.57 420.76
+    cship              Wannest 40062 10003 217.91 202.88 66.76 44.99 123.54 129.16 587.18
+    cship              Quintin 40135 10006 227.13 203.98 43.02 38.09 206.62 159.36 846.66
+    cship        Underexposure 40094 10004 186.57 473.28 81.01 22.07 166.07 160.77 265.43
+    cship              Sorbets 40092 10004 178.26 103.93 58.38 36.02 146.32 194.04 719.04
+    cship          Egocentrism 40079 10003 143.13 182.89 92.81 26.73 186.74 104.84 465.83
+    cship                Liker 40042 10002 224.62 343.86 90.95 27.00 209.91 193.58 38.49
+    cship                 Pean 40057 10002 64.12 144.81 120.45 32.61 160.79 176.51 439.69
+    cship              Accepts 40001 10000 187.00 433.37 96.93 25.79 149.36 137.44 102.56
+    cship           Larcenists 40143 10007 223.99 289.44 89.53 42.19 183.51 105.51 752.53
+    cship          Filamentary 40155 10007 77.92 467.99 51.22 39.79 127.69 117.72 307.66
+    cship              Headpin 40112 10005 50.87 112.77 74.04 15.23 191.20 120.65 244.86
+    cship            Lambently 40027 10001 232.46 238.71 39.57 41.56 145.65 101.50 678.88
+    cship               Teemer 40055 10002 157.74 320.04 43.54 40.60 45.39 127.94 230.44
+    cship              Thicker 40095 10004 190.35 161.46 49.13 27.33 175.84 188.62 395.23
+    cship          Depopulates 40148 10007 208.23 339.57 83.36 44.85 202.27 165.54 578.61
+    cship          Pacesetting 40067 10003 210.91 486.74 92.02 43.62 214.99 150.62 35.67
+    cship              Vealier 40023 10001 243.69 368.24 123.09 22.85 145.36 130.41 921.62
+    cship            Consensus 40076 10003 206.57 287.44 117.13 44.88 26.26 139.02 500.53
+    cship            Andromeda 40011 10000 173.62 350.46 43.01 34.33 113.56 107.56 891.81
+    cship          Highfalutin 40090 10004 117.79 198.74 92.02 17.53 94.43 149.02 489.30
+    cship         Exorbitantly 40008 10000 95.16 348.22 89.14 30.80 151.61 167.91 388.83
+    cship           Detractive 40021 10001 216.77 195.71 84.72 30.90 207.81 197.99 744.73
+    cship             Obstruct 40088 10004 153.44 491.94 94.44 30.66 152.67 176.45 178.26
+    cship                Amaze 40091 10004 93.51 453.95 87.69 40.52 113.63 150.25 402.85
+    cship                Cheep 40056 10002 168.94 158.89 54.68 37.14 89.12 128.38 820.75
+    cship             Demoting 40097 10004 234.55 358.94 43.61 34.61 29.97 116.66 356.51
+    cship            Sluggards 40083 10004 249.89 459.66 119.83 40.21 124.41 168.21 398.38
+    cship             Flutiest 40070 10003 126.78 198.24 124.46 33.76 171.29 177.43 769.12
+    cship                Porks 40152 10007 136.33 322.77 115.62 36.74 43.81 124.56 716.31
+    cship            Unloaders 40146 10007 132.77 371.06 76.99 19.77 154.06 191.38 440.35
+    cship           Asexuality 40018 10000 190.09 163.62 94.63 15.33 124.40 137.24 355.86
+    cship              Grosser 40136 10006 176.02 356.68 66.38 33.24 173.68 166.84 469.79
+    cship              Debussy 40030 10001 93.15 243.39 80.93 42.84 178.35 105.04 639.53
+    cship           Deterrence 40012 10000 196.10 499.72 94.69 18.94 34.47 180.21 748.15
+    cship           Palliating 40138 10006 79.27 286.91 111.57 30.43 147.70 104.53 256.11
+    cship          Permutation 40082 10004 94.09 476.99 90.41 42.25 104.24 197.37 382.60
+    cship               Luteum 40151 10007 107.49 200.06 56.29 42.13 190.62 137.18 578.94
+    cship             Toxicity 40071 10003 136.64 419.90 83.40 27.40 204.63 196.50 818.77
+    cship               Robing 40059 10002 161.12 373.65 97.95 39.90 191.08 193.34 666.19
+    cship           Deforested 40134 10006 168.69 449.15 123.37 18.30 114.73 180.71 550.37
+    cship               Boiled 40098 10004 213.98 366.62 92.25 21.21 79.49 104.82 565.57
+    cship                 Pipy 40086 10004 104.48 317.99 41.50 28.72 119.29 198.26 622.55
+    cship            Sanctuary 40129 10006 66.53 396.18 92.99 31.07 163.46 142.17 1003.23
+    cship               Evilly 40139 10006 214.12 387.31 88.20 36.13 63.95 146.91 718.60
+    cship            Cutaneous 40038 10001 200.56 123.93 93.56 21.14 107.06 165.14 629.62
+    cship               Mantas 40132 10006 185.86 235.75 93.59 34.08 202.19 127.05 172.97
+    cship        Phenothiazine 40130 10006 102.57 241.91 34.66 39.27 211.02 107.05 575.07
+    cship           Oblongatae 40072 10003 218.59 107.94 61.89 26.60 29.00 168.20 352.67
+    cship              Mollusc 40034 10001 78.19 145.88 60.10 26.34 96.86 129.96 662.81
+    cship              Arctics 40003 10000 63.85 296.12 121.87 29.40 88.41 110.27 816.17
+    cship            Omnibuses 40043 10002 242.54 421.96 127.75 21.89 85.12 196.69 863.35
+    cship            Misnomers 40100 10005 51.69 238.41 74.69 37.42 33.01 136.49 67.70
+    cship                Blond 40028 10001 210.72 189.72 34.00 44.66 107.78 189.82 825.36
+    cship          Depredating 40099 10004 181.58 436.37 111.86 18.38 206.28 184.66 642.22
+    cship            Purchases 40073 10003 161.89 161.25 71.67 15.71 215.12 155.84 242.09
+    cship            Stingrays 40060 10003 146.60 353.01 53.19 30.50 195.46 167.48 517.99
+    cship              Blonder 40125 10006 224.82 140.45 47.51 25.21 214.44 180.86 286.74
+    cship         Praiseworthy 40075 10003 159.24 325.12 88.56 38.92 202.07 148.26 57.12
+    cship              Acetone 40106 10005 142.64 303.23 68.34 17.74 173.77 190.87 195.26
+    cship         Demagnetizes 40128 10006 67.79 347.34 118.98 33.52 150.89 192.99 1004.17
+    cship            Vaultiest 40016 10000 237.42 210.30 77.92 24.23 175.01 151.99 526.70
+    cship            Stressors 40013 10000 175.36 173.55 55.96 31.70 219.70 163.34 880.19
+    cship             Nuttiest 40046 10002 54.50 261.04 71.45 30.87 33.45 122.92 894.12
+    cship                Laten 40109 10005 153.28 177.80 124.84 39.26 214.26 154.47 806.26
+    cship             Retrench 40047 10002 206.63 270.28 56.63 40.29 59.19 180.66 199.15
+    cship          Franchising 40141 10007 81.93 272.09 100.76 42.75 139.63 101.17 563.80
+    cship           Nurserymen 40048 10002 155.95 196.59 33.07 30.80 215.69 133.48 965.04
+    cship             Bedlamps 40022 10001 213.90 248.82 58.96 18.61 172.13 159.31 739.45
+    cship             Richness 40010 10000 167.20 224.26 105.30 24.84 130.01 108.95 885.02
+    cship             Clubfeet 40150 10007 69.01 174.98 41.12 23.41 45.41 161.55 676.83
+    cship           Blackjacks 40045 10002 115.42 196.29 122.45 16.82 44.21 149.84 445.84
+    cship          Prosthetics 40044 10002 93.22 313.51 123.40 34.02 70.82 116.02 949.09
+    cship        Condensations 40035 10001 197.78 424.62 54.70 20.29 45.96 171.93 376.78
+    cship              Subtile 40147 10007 193.57 421.61 51.94 35.65 132.31 195.46 48.94
+    cship          Repopulated 40006 10000 163.43 347.42 81.80 36.73 184.77 143.17 915.82
+    cship            Forsythia 40103 10005 109.06 404.60 35.03 16.16 55.98 104.54 12.93
+    cship            Haplessly 40093 10004 125.06 377.01 48.66 32.51 84.95 159.62 328.92
+    cship              Affixal 40116 10005 217.34 270.33 54.10 19.02 106.56 101.66 297.20
+    cship          Apologizing 40124 10006 97.08 256.11 57.96 33.95 27.33 191.35 797.54
+    cship                Baths 40015 10000 134.37 388.70 105.17 17.89 109.72 188.29 296.75
+    cship      Transliteration 40117 10005 55.89 474.12 66.36 16.07 163.37 138.20 513.71
+    cship            Defensing 40114 10005 215.71 216.90 74.42 16.78 174.78 104.51 799.97
+    cship           Repudiates 40025 10001 199.41 404.28 65.13 27.85 141.69 110.25 176.89
+    cship                Users 40063 10003 205.69 119.33 128.62 37.88 203.49 113.26 709.67
+    cship              Admixes 40029 10001 132.55 155.66 67.33 27.70 74.37 137.72 193.97
+    cship              Crazily 40051 10002 248.96 421.52 123.96 15.78 87.15 103.90 764.64
+    cship             Archways 40026 10001 109.72 264.51 81.11 17.94 22.96 195.11 245.84
+    cship              Isthmus 40036 10001 181.48 407.64 86.01 25.83 199.22 198.57 311.34
+    cship          Reconfigure 40058 10002 96.26 420.71 98.58 34.52 81.53 183.28 292.55
+    cship              Foredid 40032 10001 122.29 438.81 31.89 39.18 204.04 143.90 120.46
+    cship             Laughter 40102 10005 196.03 314.17 73.11 40.11 148.83 102.44 183.85
+    cship               Aridly 40005 10000 106.88 461.61 51.09 42.10 42.47 132.08 647.20
+    cship              Labeler 40069 10003 233.74 352.93 36.44 21.17 217.44 128.26 977.38
+    cship           Savouriest 40052 10002 211.94 249.30 44.49 37.86 97.11 137.40 610.98
+    cship              Pesetas 40064 10003 121.86 328.17 95.73 35.13 41.91 128.80 438.72
+    cship               Effect 40145 10007 59.51 207.91 81.88 22.72 74.43 157.08 831.86
+
+// person name index parent skill
+//    person <string> <int> <int> <string>
+    person              Dorothy 50022 10001 electrician
+    person                 Tony 50065 10006 craneOperator
+    person               Ismael 50064 10006 driver
+    person              Crystal 50048 10004 janitor
+    person               Marion 50050 10004 stevedore
+    person                 Gary 50024 10002 mate
+    person               Herman 50034 10002 electrician
+    person              Heather 50000 10000 janitor
+    person              Lucille 50053 10005 mechanic
+    person                Wayne 50011 10000 electrician
+    person              Johnnie 50003 10000 carpenter
+    person                Grant 50012 10000 mate
+    person              Gabriel 50006 10000 carpenter
+    person             Veronica 50021 10001 inspector
+    person                Lloyd 50063 10006 driver
+    person                 Mona 50008 10000 mate
+    person                 Gwen 50018 10001 driver
+    person              Carlton 50040 10003 clerk
+    person                 Matt 50041 10003 stevedore
+    person              Antonia 50032 10002 mate
+    person                 Abel 50001 10000 painter
+    person               Sherri 50079 10007 carpenter
+    person             Terrance 50069 10006 craneOperator
+    person              Leticia 50068 10006 inspector
+    person               Ginger 50015 10001 cleaner
+    person                 Lora 50026 10002 electrician
+    person            Christina 50031 10002 inspector
+    person                Jacob 50067 10006 mechanic
+    person               Dexter 50078 10007 janitor
+    person                 Rick 50070 10006 janitor
+    person                 Lela 50038 10003 mate
+    person             Benjamin 50033 10002 janitor
+    person                  Leo 50056 10005 mate
+    person                 Inez 50045 10004 driver
+    person             Fernando 50046 10004 mate
+    person                 Otis 50081 10007 cleaner
+    person                Terri 50049 10004 inspector
+    person                 Anne 50073 10007 craneOperator
+    person                  Sue 50002 10000 inspector
+    person               Israel 50074 10007 painter
+    person                Dixie 50016 10001 mechanic
+    person            Catherine 50054 10005 clerk
+    person                Olive 50055 10005 mechanic
+    person               Vivian 50072 10007 clerk
+    person            Christian 50077 10007 cleaner
+    person               Minnie 50047 10004 mate
+    person              Johanna 50075 10007 cleaner
+    person                Byron 50042 10003 janitor
+    person              Sherman 50080 10007 carpenter
+    person                Angel 50037 10003 captain
+    person                 Marc 50071 10006 electrician
+    person               Claire 50013 10001 carpenter
+    person                Joann 50027 10002 driver
+    person            Geraldine 50061 10005 inspector
+    person                Frank 50043 10004 craneOperator
+    person                Linda 50039 10003 mate
+    person               Donald 50029 10002 driver
+    person               Margie 50010 10000 inspector
+    person               Kellie 50030 10002 mate
+    person              Terence 50058 10005 driver
+    person              Candice 50082 10007 captain
+    person                Kenny 50066 10006 crew
+    person              Alfredo 50009 10000 painter
+    person              Darrell 50036 10003 engineer
+    person              Brendan 50019 10001 mate
+    person               Lorena 50014 10001 clerk
+    person                 Elsa 50017 10001 craneOperator
+    person              Melinda 50020 10001 engineer
+    person                Harry 50060 10005 engineer
+    person               Alison 50004 10000 painter
+    person                  Sam 50051 10005 driver
+    person              Miranda 50007 10000 painter
+    person                 June 50062 10006 captain
+    person              Leonard 50052 10005 electrician
+    person               Nettie 50057 10005 janitor
+    person              Clayton 50023 10001 carpenter
+    person                Terri 50059 10005 clerk
+    person                 Teri 50028 10002 inspector
+    person             Reginald 50035 10003 crew
+    person              Phyllis 50076 10007 stevedore
+    person                 Troy 50025 10002 electrician
+    person               Robert 50044 10004 clerk
+    person               Nathan 50005 10000 carpenter
+
+// job    name index parent duration [skill]+ (one or more, matches skill in person, may repeat)
+//    job    <string> <int> <int> <double> [<string>]+
+    job         Job_56_13_47 60469 40151 71.68 crew
+    job         Job_18_45_35 60153 40047 31.48
+    job         Job_21_72_37 60322 30109 69.70 cleaner
+    job         Job_82_29_38 60385 30131 78.51 driver
+    job         Job_98_67_38 60349 40111 38.78 mechanic crew
+    job         Job_10_92_36 60075 30032 30.02 inspector craneOperator driver
+    job         Job_55_62_85 60126 30046 50.54 engineer
+    job         Job_64_98_65 60345 40108 28.46 inspector painter captain
+    job         Job_21_88_59 60337 40100 92.67 engineer cleaner inspector
+    job         Job_50_88_17 60223 40070 110.31 crew
+    job         Job_75_15_51 60239 30083 88.20
+    job         Job_51_52_31 60204 30072 66.61
+    job         Job_76_18_49 60301 30101 30.85 carpenter janitor
+    job         Job_13_16_48 60025 30018 43.24 captain electrician
+    job         Job_84_46_42 60027 40000 32.39 craneOperator mate
+    job         Job_59_86_91 60032 40006 78.82 cleaner
+    job         Job_89_34_77 60099 40026 114.24 craneOperator
+    job         Job_95_94_57 60014 30011 113.04 captain painter
+    job         Job_80_72_26 60361 30121 43.04
+    job         Job_53_72_83 60199 30070 101.67 captain
+    job         Job_64_75_20 60414 40134 59.16 mechanic mate
+    job         Job_42_21_76 60115 30041 70.96 mechanic electrician
+    job         Job_76_60_92 60300 30101 107.97 crew
+    job         Job_69_60_44 60050 40016 66.59 engineer
+    job         Job_85_97_70 60309 30104 51.63 electrician engineer
+    job         Job_80_76_36 60472 40154 109.67 stevedore
+    job         Job_44_42_58 60283 40090 83.50 painter craneOperator
+    job         Job_18_23_42 60105 40033 84.80
+    job         Job_59_17_17 60155 40047 48.16 engineer
+    job         Job_30_84_93 60297 40099 76.00 mate janitor cleaner crew
+    job         Job_32_91_67 60465 40150 110.17 mate
+    job         Job_57_27_91 60127 30046 72.11
+    job         Job_44_86_83 60042 40013 114.03
+    job         Job_36_13_54 60146 40041 105.64
+    job         Job_32_87_15 60380 30129 23.61 captain
+    job         Job_22_70_88 60274 40084 85.72 janitor
+    job         Job_69_44_26 60333 30116 119.80
+    job         Job_33_63_89 60135 30052 97.49 craneOperator cleaner
+    job         Job_13_98_32 60371 30124 69.40 painter engineer janitor
+    job         Job_39_23_25 60284 40091 67.74 mate crew electrician
+    job         Job_54_98_18 60313 30106 100.28 mechanic mate
+    job         Job_67_19_39 60021 30017 40.22 crew
+    job         Job_10_90_24 60257 30093 30.43 electrician captain
+    job         Job_60_38_44 60012 30009 104.54 clerk stevedore
+    job         Job_89_65_57 60045 40014 115.43 engineer driver
+    job         Job_96_56_21 60291 40095 34.20 crew
+    job         Job_50_87_52 60163 40052 28.19 crew captain inspector
+    job         Job_59_82_55 60037 40007 111.44 mate
+    job         Job_85_92_78 60202 30071 72.55
+    job         Job_58_92_34 60144 40040 28.63 painter
+    job         Job_82_66_91 60138 30055 92.43 carpenter inspector
+    job         Job_80_93_70 60348 40111 26.14 mate
+    job         Job_52_79_54 60443 30158 52.50 clerk crew electrician
+    job         Job_17_48_15 60406 40129 57.59 driver mechanic
+    job         Job_47_70_20 60058 30024 22.47 mechanic
+    job         Job_42_45_81 60355 40115 111.10 inspector
+    job         Job_16_20_72 60006 30003 60.48 engineer clerk
+    job         Job_97_15_21 60478 40157 71.81
+    job         Job_82_89_21 60290 40095 67.61 cleaner
+    job         Job_57_47_17 60139 30056 91.13 inspector engineer captain engineer
+    job         Job_88_61_73 60254 30092 52.03 carpenter stevedore
+    job         Job_13_17_56 60130 30050 97.71 clerk
+    job         Job_35_72_63 60125 30045 112.41
+    job         Job_74_92_35 60338 40103 80.69 mate
+    job         Job_13_21_32 60394 30139 118.38 driver carpenter electrician
+    job         Job_41_54_95 60166 40052 25.64 janitor engineer carpenter
+    job         Job_17_44_24 60178 40059 117.60 driver painter
+    job         Job_31_30_68 60087 30039 25.86 craneOperator inspector driver
+    job         Job_21_62_91 60263 30097 44.50 painter captain mechanic
+    job         Job_91_78_92 60428 30141 109.24 carpenter
+    job         Job_14_11_53 60225 40072 69.29 craneOperator cleaner driver
+    job         Job_86_20_37 60423 40139 54.13 captain
+    job         Job_73_57_94 60156 40048 26.69 driver engineer stevedore
+    job         Job_24_94_12 60183 30061 27.43 janitor
+    job         Job_36_49_23 60143 30059 48.15
+    job         Job_76_26_86 60007 30006 71.42 clerk carpenter
+    job         Job_17_25_63 60292 40096 43.37 mechanic stevedore
+    job         Job_40_39_87 60098 40026 38.86
+    job         Job_24_66_55 60107 40035 22.11
+    job         Job_61_28_34 60424 30140 105.16 stevedore
+    job         Job_99_70_75 60255 30093 41.71 carpenter clerk
+    job         Job_99_83_46 60004 30003 102.58 captain craneOperator
+    job         Job_46_87_94 60117 30042 98.76
+    job         Job_72_26_18 60277 40086 70.93 clerk
+    job         Job_91_46_43 60124 30044 56.38 mechanic stevedore inspector
+    job         Job_94_48_86 60009 30007 33.29 janitor painter
+    job         Job_90_77_39 60186 30063 63.58 janitor driver painter
+    job         Job_17_47_72 60142 30058 76.08 cleaner painter
+    job         Job_24_28_64 60362 30121 117.21 electrician driver stevedore
+    job         Job_18_76_33 60073 30030 84.14 painter
+    job         Job_76_51_15 60184 30062 84.65
+    job         Job_65_99_41 60303 30102 51.55 crew electrician
+    job         Job_15_68_20 60167 40053 20.10 cleaner
+    job         Job_59_11_87 60008 30006 30.73 craneOperator
+    job         Job_12_72_46 60270 40081 23.40 craneOperator carpenter carpenter
+    job         Job_83_42_28 60321 30109 75.69 inspector
+    job         Job_46_16_19 60409 40132 76.47 inspector
+    job         Job_60_75_49 60017 30013 92.15 mechanic inspector driver
+    job         Job_81_39_33 60269 40081 116.14 craneOperator stevedore
+    job         Job_97_66_36 60463 40148 62.15 carpenter mechanic
+    job         Job_98_61_60 60433 30146 36.30 janitor captain
+    job         Job_94_44_57 60011 30009 21.18 driver
+    job         Job_98_44_19 60191 30066 59.51 driver
+    job         Job_85_62_93 60185 30062 41.46 carpenter
+    job         Job_70_84_62 60299 30101 91.09 clerk mate painter
+    job         Job_41_40_49 60228 40076 92.21 driver
+    job         Job_60_79_27 60152 40046 91.74
+    job         Job_88_22_13 60101 40027 75.70 craneOperator
+    job         Job_37_72_51 60082 30036 29.94
+    job         Job_32_45_92 60160 40049 62.00 crew
+    job         Job_85_32_67 60089 40021 26.29 stevedore stevedore stevedore
+    job         Job_93_88_13 60059 30024 33.87 painter
+    job         Job_14_22_74 60057 30022 83.72 cleaner cleaner clerk
+    job         Job_36_68_30 60190 30065 108.54 crew mechanic cleaner
+    job         Job_34_12_11 60067 30028 65.92 driver
+    job         Job_97_92_25 60131 30050 99.21
+    job         Job_40_20_73 60081 30035 42.28 electrician cleaner mechanic
+    job         Job_87_50_62 60033 40006 77.13 crew
+    job         Job_84_55_21 60477 40157 32.38
+    job         Job_88_81_66 60222 40066 49.12
+    job         Job_51_60_50 60247 30089 57.66 inspector
+    job         Job_18_94_28 60276 40086 62.09 crew captain inspector
+    job         Job_29_32_97 60393 30137 56.77 electrician crew
+    job         Job_39_83_98 60357 40117 43.47 stevedore captain
+    job         Job_71_78_51 60066 30028 106.95 crew
+    job         Job_16_94_33 60418 40136 20.70 inspector painter
+    job         Job_43_90_65 60286 40093 39.71 inspector crew
+    job         Job_82_19_54 60197 30069 72.87 cleaner inspector stevedore
+    job         Job_14_20_10 60113 40039 73.00 electrician stevedore
+    job         Job_82_26_95 60235 30080 59.73 crew inspector
+    job         Job_18_13_50 60273 40083 56.59 craneOperator
+    job         Job_93_20_58 60431 30144 56.30 painter engineer
+    job         Job_48_20_62 60018 30013 66.17 craneOperator
+    job         Job_81_76_54 60133 30052 70.42 crew driver
+    job         Job_25_89_13 60352 40113 75.24
+    job         Job_39_23_80 60456 40145 27.03 craneOperator
+    job         Job_16_48_11 60304 30102 47.86 inspector janitor
+    job         Job_89_57_96 60359 40118 115.42 cleaner mechanic
+    job         Job_60_24_18 60069 30029 114.20 clerk cleaner
+    job         Job_69_76_11 60364 30122 26.68 mechanic
+    job         Job_57_86_57 60016 30011 31.05 mate carpenter
+    job         Job_66_71_42 60230 40077 37.86 engineer engineer electrician
+    job         Job_10_15_60 60088 40020 64.01 craneOperator engineer
+    job         Job_52_12_74 60308 30103 32.14 mechanic stevedore janitor
+    job         Job_41_17_93 60416 40136 79.62 stevedore captain
+    job         Job_11_78_29 60387 30133 118.32
+    job         Job_27_13_75 60391 30136 77.05 painter electrician
+    job         Job_50_12_23 60188 30064 45.32
+    job         Job_86_68_92 60250 30090 54.89 captain inspector
+    job         Job_54_27_26 60265 30099 95.45 engineer inspector driver
+    job         Job_68_80_99 60425 30140 75.49 painter clerk
+    job         Job_89_30_68 60470 40152 50.60 captain carpenter
+    job         Job_51_16_84 60268 40080 59.76 captain
+    job         Job_96_97_25 60324 30110 20.24 cleaner cleaner inspector
+    job         Job_86_44_46 60396 30139 52.21
+    job         Job_95_92_26 60251 30091 48.43 janitor cleaner painter
+    job         Job_22_73_49 60076 30033 108.44 driver
+    job         Job_85_66_33 60259 30095 77.17 driver mechanic carpenter
+    job         Job_94_67_10 60468 40151 80.45 craneOperator
+    job         Job_27_65_32 60064 30027 67.61
+    job         Job_83_61_11 60413 40134 74.87 mate engineer driver
+    job         Job_22_54_92 60369 30124 32.75
+    job         Job_45_73_27 60051 40019 60.76 driver engineer painter captain
+    job         Job_44_52_96 60123 30044 24.32 clerk
+    job         Job_32_25_78 60306 30102 110.77 clerk electrician mate
+    job         Job_95_29_16 60399 40122 36.08 stevedore electrician
+    job         Job_40_79_34 60108 40036 109.57
+    job         Job_84_26_21 60072 30030 65.97 clerk janitor
+    job         Job_26_50_97 60334 30117 54.90 electrician
+    job         Job_64_74_33 60455 40145 59.51
+    job         Job_21_44_23 60219 40064 119.01 clerk captain clerk
+    job         Job_37_79_83 60258 30095 92.42
+    job         Job_85_29_36 60339 40103 31.43 crew mate
+    job         Job_28_14_44 60095 40025 79.32 crew
+    job         Job_50_71_56 60148 40044 79.17 engineer captain
+    job         Job_31_62_67 60106 40033 107.41 stevedore carpenter
+    job         Job_37_41_40 60466 40150 98.66 inspector
+    job         Job_49_47_74 60342 40106 100.24 crew electrician crew stevedore
+    job         Job_22_64_79 60093 40024 75.22 inspector
+    job         Job_79_14_85 60460 40147 81.31 craneOperator
+    job         Job_51_40_34 60154 40047 105.10 electrician clerk
+    job         Job_59_74_93 60070 30029 28.68 electrician
+    job         Job_33_71_74 60056 30021 35.12 carpenter
+    job         Job_86_20_87 60458 40146 30.81 driver janitor janitor
+    job         Job_20_40_35 60442 30157 26.73 driver mate
+    job         Job_20_20_72 60047 40015 60.23 crew
+    job         Job_39_92_97 60215 40060 42.99 mate
+    job         Job_65_44_57 60311 30105 69.71
+    job         Job_10_53_58 60404 40127 49.48
+    job         Job_33_94_96 60162 40051 42.67 mate craneOperator
+    job         Job_44_67_83 60118 30042 41.71
+    job         Job_63_11_61 60287 40093 68.60 driver craneOperator
+    job         Job_44_83_31 60381 30130 77.49 clerk electrician
+    job         Job_89_11_76 60226 40072 32.22 clerk clerk
+    job         Job_20_87_54 60134 30052 54.10 inspector mechanic
+    job         Job_78_60_82 60248 30089 65.44
+    job         Job_10_88_14 60140 30058 35.87 stevedore mechanic
+    job         Job_13_88_92 60372 30125 89.27 captain stevedore
+    job         Job_82_95_94 60177 40059 116.16 electrician crew
+    job         Job_46_70_34 60278 40086 105.65 driver
+    job         Job_58_32_13 60241 30084 60.28 inspector driver
+    job         Job_95_89_34 60296 40098 40.44 craneOperator driver
+    job         Job_73_35_63 60476 40157 24.96 captain mate
+    job         Job_54_35_75 60267 30099 109.61 driver
+    job         Job_94_10_69 60041 40011 35.68 inspector
+    job         Job_38_22_65 60293 40096 47.19 driver mechanic painter
+    job         Job_49_78_76 60203 30072 54.83 stevedore stevedore
+    job         Job_56_72_40 60307 30103 36.14
+    job         Job_74_32_54 60020 30015 37.04 captain janitor engineer electrician
+    job         Job_33_79_73 60449 40142 88.17 captain cleaner
+    job         Job_50_27_29 60103 40030 68.48 driver craneOperator
+    job         Job_52_94_17 60360 30120 20.35 cleaner stevedore
+    job         Job_26_91_34 60074 30031 45.17 painter
+    job         Job_43_81_99 60331 30115 35.37 inspector
+    job         Job_78_55_58 60473 40155 33.54 cleaner
+    job         Job_61_44_55 60377 30128 50.60 janitor
+    job         Job_74_39_61 60440 30154 41.39 electrician inspector captain
+    job         Job_32_48_89 60084 30037 116.08 electrician
+    job         Job_83_76_12 60003 30002 78.13 craneOperator captain crew
+    job         Job_27_72_22 60312 30106 50.74 crew crew
+    job         Job_47_58_59 60040 40009 92.63 electrician inspector
+    job         Job_50_18_79 60044 40014 99.85
+    job         Job_58_63_38 60165 40052 72.46 electrician
+    job         Job_44_26_62 60192 30066 68.06 mate
+    job         Job_94_25_54 60264 30098 69.96
+    job         Job_34_78_92 60210 30077 99.93 electrician inspector
+    job         Job_69_89_23 60132 30052 46.36 driver mate
+    job         Job_36_34_58 60315 30107 82.48 painter crew
+    job         Job_15_23_69 60325 30111 45.06
+    job         Job_24_75_53 60189 30065 99.54 captain
+    job         Job_28_32_38 60451 40142 32.94 painter engineer
+    job         Job_66_96_47 60445 30159 94.17 craneOperator driver
+    job         Job_55_11_75 60253 30091 25.02
+    job         Job_59_90_68 60024 30018 63.63 craneOperator stevedore
+    job         Job_49_89_95 60097 40026 69.89 inspector
+    job         Job_26_47_25 60430 30143 60.35 electrician
+    job         Job_92_49_76 60462 40148 74.74 driver mechanic
+    job         Job_91_46_19 60438 30149 116.63 driver
+    job         Job_24_41_21 60330 30115 38.29 mate driver
+    job         Job_73_86_59 60049 40015 91.40 cleaner clerk painter janitor
+    job         Job_37_25_13 60022 30017 46.67 painter
+    job         Job_25_66_87 60421 40139 98.44 janitor mechanic
+    job         Job_90_28_84 60161 40050 41.36 clerk captain crew
+    job         Job_99_72_22 60271 40083 69.23 painter janitor
+    job         Job_13_74_14 60052 40019 45.80 craneOperator carpenter
+    job         Job_60_51_65 60227 40073 30.45 painter
+    job         Job_35_39_52 60116 30041 97.77 engineer driver crew
+    job         Job_98_48_60 60094 40025 114.06 electrician craneOperator
+    job         Job_75_29_28 60019 30014 33.57
+    job         Job_97_65_68 60335 30118 98.60 cleaner
+    job         Job_17_23_92 60382 30130 52.12 craneOperator cleaner craneOperator
+    job         Job_42_83_71 60114 30041 64.44 driver
+    job         Job_60_35_93 60158 40048 118.75 crew
+    job         Job_50_14_78 60100 40026 48.99 driver inspector
+    job         Job_84_31_77 60086 30038 78.80 clerk
+    job         Job_65_38_95 60149 40044 93.86 clerk stevedore cleaner
+    job         Job_70_18_42 60435 30147 56.97 painter
+    job         Job_86_67_86 60314 30107 41.10 mechanic mate cleaner
+    job         Job_10_61_33 60242 30085 112.03 painter
+    job         Job_14_15_60 60344 40108 23.17 electrician craneOperator
+    job         Job_33_72_73 60389 30136 31.32
+    job         Job_61_51_27 60260 30096 47.74 painter
+    job         Job_35_74_99 60370 30124 93.93 carpenter mate
+    job         Job_49_27_58 60187 30063 113.79 janitor electrician
+    job         Job_55_64_67 60055 30020 96.14 inspector
+    job         Job_11_36_11 60317 30107 99.97 cleaner
+    job         Job_11_65_66 60397 40120 76.36 painter
+    job         Job_43_41_89 60249 30090 75.11 janitor
+    job         Job_37_33_60 60294 40097 22.25 clerk craneOperator janitor
+    job         Job_97_55_17 60128 30048 92.43 stevedore stevedore inspector
+    job         Job_40_19_50 60002 30002 36.14 mechanic clerk
+    job         Job_67_53_72 60173 40055 116.50 mechanic
+    job         Job_47_88_39 60217 40061 94.58 driver janitor
+    job         Job_25_78_84 60207 30073 73.05
+    job         Job_72_75_56 60412 40134 20.46
+    job         Job_29_51_86 60439 30152 103.76
+    job         Job_17_20_91 60244 30086 99.78 cleaner engineer
+    job         Job_26_57_93 60323 30110 53.92
+    job         Job_26_70_68 60171 40054 44.54
+    job         Job_78_40_82 60457 40145 109.14
+    job         Job_94_27_89 60365 30122 75.62 janitor
+    job         Job_87_63_13 60036 40007 43.97 mechanic painter
+    job         Job_69_35_19 60220 40065 110.59 mate
+    job         Job_35_87_79 60383 30130 35.48 crew
+    job         Job_58_71_10 60461 40147 107.29 captain
+    job         Job_25_38_39 60221 40065 113.84 janitor engineer craneOperator engineer
+    job         Job_18_31_29 60373 30125 84.76 clerk
+    job         Job_49_69_64 60419 40137 62.38 carpenter engineer painter
+    job         Job_89_88_96 60417 40136 28.77
+    job         Job_98_63_61 60119 30043 88.35 crew
+    job         Job_22_40_33 60145 40041 67.46 electrician stevedore
+    job         Job_29_24_56 60193 30067 110.96 captain electrician
+    job         Job_61_46_95 60427 30141 29.80 mechanic clerk
+    job         Job_71_65_77 60109 40036 84.55 driver mate driver
+    job         Job_79_61_44 60001 30001 83.39
+    job         Job_64_94_74 60031 40005 62.20 carpenter electrician
+    job         Job_25_94_95 60085 30038 85.98 mate driver
+    job         Job_22_20_31 60245 30088 20.08 inspector driver captain
+    job         Job_85_34_37 60216 40060 73.70
+    job         Job_90_98_79 60358 40118 69.27 cleaner stevedore crew
+    job         Job_43_46_74 60310 30104 88.39 painter craneOperator carpenter
+    job         Job_22_95_36 60395 30139 58.82 inspector clerk
+    job         Job_92_63_22 60092 40024 110.36
+    job         Job_75_14_45 60378 30129 53.16 janitor mechanic carpenter
+    job         Job_15_47_24 60261 30096 23.35 electrician mate
+    job         Job_11_34_65 60398 40121 116.49 stevedore mate
+    job         Job_18_40_59 60196 30068 50.42
+    job         Job_61_56_87 60206 30072 77.94 mate mate
+    job         Job_12_99_90 60104 40031 68.11 mate engineer
+    job         Job_58_94_47 60112 40038 102.00
+    job         Job_65_50_24 60459 40147 47.10
+    job         Job_55_60_77 60353 40114 35.52 driver clerk mechanic
+    job         Job_62_60_17 60172 40055 98.02 stevedore inspector
+    job         Job_20_96_88 60030 40005 100.21 carpenter
+    job         Job_42_69_73 60090 40021 32.05
+    job         Job_76_50_49 60043 40013 98.80 electrician
+    job         Job_75_93_18 60280 40088 98.66 cleaner
+    job         Job_58_96_90 60336 30119 25.82 engineer clerk
+    job         Job_51_36_48 60302 30101 105.85
+    job         Job_11_17_72 60200 30071 78.67
+    job         Job_43_78_70 60354 40115 107.63 stevedore carpenter
+    job         Job_52_26_42 60232 40079 81.22 mate
+    job         Job_91_83_32 60447 40140 83.73 mate
+    job         Job_43_24_19 60316 30107 29.63 janitor
+    job         Job_83_85_62 60039 40009 79.80 cleaner captain
+    job         Job_63_14_23 60441 30154 70.10
+    job         Job_87_75_95 60063 30027 71.74
+    job         Job_66_98_69 60407 40129 71.86 inspector clerk
+    job         Job_76_59_44 60236 30081 47.72 crew electrician driver
+    job         Job_51_26_93 60289 40094 32.16 clerk
+    job         Job_42_41_90 60332 30116 25.06 cleaner
+    job         Job_74_35_60 60246 30088 70.07 engineer mechanic
+    job         Job_26_56_75 60053 40019 67.06 captain
+    job         Job_52_90_92 60147 40044 117.76 craneOperator painter janitor
+    job         Job_59_49_10 60475 40156 63.72 mechanic
+    job         Job_10_15_33 60363 30122 109.01
+    job         Job_79_16_94 60068 30029 57.07 mechanic
+    job         Job_96_20_95 60256 30093 32.22
+    job         Job_67_97_70 60275 40084 88.28 electrician
+    job         Job_98_72_24 60281 40089 46.28 craneOperator cleaner
+    job         Job_77_83_26 60198 30070 23.31 inspector cleaner
+    job         Job_73_72_26 60346 40109 28.62
+    job         Job_24_28_76 60403 40127 76.36 janitor mate driver
+    job         Job_90_88_18 60237 30081 92.53 mechanic janitor
+    job         Job_78_93_48 60415 40135 111.47 clerk craneOperator crew mate
+    job         Job_26_34_43 60467 40150 47.38 electrician painter
+    job         Job_85_88_44 60266 30099 25.20 carpenter mechanic
+    job         Job_92_67_72 60318 30108 95.35 mechanic crew
+    job         Job_64_79_35 60213 30078 56.76
+    job         Job_60_33_56 60062 30026 75.98 mechanic
+    job         Job_23_63_24 60174 40055 80.04 driver
+    job         Job_59_44_11 60272 40083 73.65
+    job         Job_12_77_76 60201 30071 31.75 inspector mate mate
+    job         Job_91_53_80 60038 40008 38.10
+    job         Job_32_31_32 60176 40058 99.69
+    job         Job_18_64_71 60282 40089 97.37 driver engineer
+    job         Job_36_96_59 60252 30091 94.21 janitor cleaner
+    job         Job_40_64_62 60319 30108 45.50
+    job         Job_86_99_45 60034 40007 34.82 inspector janitor
+    job         Job_55_63_20 60061 30025 93.65 inspector
+    job         Job_46_62_27 60083 30037 54.32
+    job         Job_92_58_61 60111 40038 84.06 clerk painter
+    job         Job_27_99_93 60015 30011 45.30 cleaner crew inspector
+    job         Job_24_76_90 60212 30078 66.14 cleaner cleaner
+    job         Job_19_13_36 60240 30084 65.25 carpenter carpenter
+    job         Job_95_67_76 60091 40023 82.73
+    job         Job_49_97_44 60182 30060 88.86 craneOperator
+    job         Job_89_48_27 60023 30018 37.68 captain painter driver
+    job         Job_75_73_11 60000 30000 53.85 mechanic driver
+    job         Job_71_87_67 60446 30159 32.72
+    job         Job_26_36_73 60436 30147 21.45 stevedore painter
+    job         Job_16_94_60 60181 30060 85.30 painter janitor
+    job         Job_33_63_20 60060 30024 100.50 mechanic
+    job         Job_73_62_60 60437 30148 52.59
+    job         Job_51_91_72 60194 30067 32.31 engineer
+    job         Job_75_74_36 60026 30018 27.15 carpenter driver
+    job         Job_75_24_78 60444 30158 98.22 captain carpenter
+    job         Job_62_78_15 60405 40129 24.85 carpenter
+    job         Job_64_85_45 60096 40025 100.84 electrician painter
+    job         Job_81_70_78 60150 40045 92.23 captain stevedore
+    job         Job_25_48_72 60209 30076 32.00 craneOperator clerk clerk
+    job         Job_48_21_32 60013 30010 40.78 crew mechanic painter
+    job         Job_39_97_53 60238 30082 112.15 janitor stevedore clerk
+    job         Job_25_53_55 60454 40144 27.02 crew engineer crew
+    job         Job_21_96_82 60234 30080 94.78 stevedore
+    job         Job_48_41_57 60392 30137 31.82 craneOperator driver janitor mechanic
+    job         Job_18_11_82 60285 40091 79.83 cleaner stevedore clerk
+    job         Job_59_89_88 60351 40113 82.93 painter craneOperator
+    job         Job_35_85_31 60464 40149 102.98 engineer
+    job         Job_91_68_29 60279 40087 64.79 carpenter captain
+    job         Job_15_96_10 60328 30114 27.66 clerk engineer
+    job         Job_52_97_80 60262 30097 27.68
+    job         Job_35_28_47 60298 30100 52.62 cleaner janitor
+    job         Job_21_73_32 60046 40015 90.08 engineer
+    job         Job_35_15_30 60120 30043 91.30 mate clerk
+    job         Job_47_29_92 60065 30027 57.42 inspector
+    job         Job_88_91_84 60374 30126 63.38 engineer
+    job         Job_35_94_49 60367 30123 95.27 janitor inspector painter captain
+    job         Job_33_90_81 60422 40139 74.83 driver captain
+    job         Job_63_83_99 60211 30077 64.06 engineer
+    job         Job_16_81_29 60401 40125 105.99 stevedore stevedore carpenter
+    job         Job_96_25_13 60420 40138 27.66 inspector
+    job         Job_48_37_76 60343 40106 65.11 captain
+    job         Job_60_75_19 60432 30144 28.68 clerk
+    job         Job_90_59_54 60411 40133 43.81 painter captain
+    job         Job_59_88_19 60450 40142 78.57 carpenter
+    job         Job_90_43_83 60390 30136 93.34 clerk
+    job         Job_42_88_71 60327 30113 106.06 mechanic
+    job         Job_27_99_72 60388 30136 37.00 mechanic mate
+    job         Job_15_16_94 60010 30008 37.40 painter cleaner painter painter
+    job         Job_75_86_26 60229 40076 91.57 cleaner
+    job         Job_29_49_34 60159 40048 50.01 craneOperator
+    job         Job_27_16_11 60169 40053 25.99
+    job         Job_74_38_31 60175 40056 98.84 driver captain stevedore
+    job         Job_38_19_40 60340 40105 110.54
+    job         Job_13_16_75 60452 40143 97.42 carpenter
+    job         Job_33_70_51 60078 30034 114.69 stevedore inspector
+    job         Job_17_95_29 60400 40123 40.83 mechanic electrician
+    job         Job_58_26_19 60122 30044 77.86 captain
+    job         Job_72_44_77 60048 40015 105.03 crew electrician
+    job         Job_74_88_35 60305 30102 24.20 painter
+    job         Job_78_35_66 60029 40003 35.11 inspector engineer captain
+    job         Job_71_95_21 60102 40029 85.60 craneOperator
+    job         Job_76_52_79 60079 30034 68.13 janitor
+    job         Job_64_74_94 60180 30060 104.16 clerk mate
+    job         Job_90_84_83 60384 30131 56.84 inspector
+    job         Job_85_85_40 60110 40037 100.73 craneOperator
+    job         Job_30_17_56 60208 30074 87.83 mate carpenter mechanic
+    job         Job_76_19_73 60329 30115 35.38 stevedore
+    job         Job_99_97_38 60141 30058 41.79 crew
+    job         Job_62_34_61 60350 40111 96.19 painter cleaner
+    job         Job_37_60_91 60214 30079 77.17
+    job         Job_77_14_79 60347 40110 40.41 painter
+    job         Job_85_61_36 60379 30129 103.47
+    job         Job_42_30_26 60356 40116 68.33 cleaner inspector engineer
+    job         Job_81_69_86 60326 30113 79.26
+    job         Job_23_19_29 60035 40007 110.12 captain cleaner craneOperator mechanic
+    job         Job_23_68_57 60471 40153 94.14 crew captain
+    job         Job_40_43_32 60080 30034 43.59
+    job         Job_19_82_73 60121 30043 20.58 inspector engineer
+    job         Job_60_60_94 60376 30127 25.87
+    job         Job_18_70_23 60295 40098 109.18 clerk mate painter
+    job         Job_37_80_26 60320 30109 45.14 painter
+    job         Job_83_69_28 60168 40053 82.60 cleaner
+    job         Job_20_29_92 60368 30123 103.19 mechanic
+    job         Job_43_95_59 60054 30020 66.06 stevedore carpenter
+    job         Job_15_81_86 60179 30060 115.16 driver engineer carpenter
+    job         Job_14_58_52 60224 40072 71.42 carpenter
+    job         Job_96_35_99 60429 30143 108.34
+    job         Job_43_50_24 60453 40143 62.13 mate
+    job         Job_36_77_72 60231 40078 89.50 janitor craneOperator electrician cleaner
+    job         Job_30_84_58 60005 30003 43.45 crew cleaner
+    job         Job_16_96_22 60288 40093 22.60
+    job         Job_67_59_25 60410 40133 93.76
+    job         Job_44_38_77 60164 40052 24.82 mate engineer craneOperator
+    job         Job_82_64_23 60434 30146 69.65 craneOperator
+    job         Job_10_28_92 60233 40079 52.68 electrician
+    job         Job_53_52_16 60151 40045 45.94 clerk craneOperator
+    job         Job_15_20_52 60195 30068 115.47 captain driver
+    job         Job_37_63_79 60170 40054 25.62 crew
+    job         Job_40_16_16 60218 40062 36.48 engineer driver carpenter
+    job         Job_78_71_38 60474 40155 77.89 janitor crew clerk
+    job         Job_65_65_88 60386 30132 57.88 cleaner captain inspector
+    job         Job_32_18_41 60426 30140 61.11 craneOperator crew
+    job         Job_85_11_66 60402 40125 115.75 electrician electrician cleaner inspector
+    job         Job_36_93_97 60366 30123 67.40 painter engineer engineer
+    job         Job_58_53_20 60129 30049 31.81
+    job         Job_18_10_79 60071 30029 84.53 painter
+    job         Job_87_47_96 60480 40159 56.63 crew craneOperator captain craneOperator
+    job         Job_40_85_31 60028 40001 107.73 engineer painter captain
+    job         Job_26_80_37 60408 40130 35.13
+    job         Job_56_98_47 60341 40105 111.38
+    job         Job_45_81_70 60136 30053 41.45 painter
+    job         Job_90_52_18 60375 30127 99.13 janitor engineer janitor
+    job         Job_78_31_59 60137 30055 86.84 electrician crew
+    job         Job_91_65_97 60205 30072 22.95 electrician crew
+    job         Job_62_69_96 60157 40048 51.85 captain
+    job         Job_24_86_69 60243 30086 113.23 inspector
+    job         Job_89_15_68 60479 40158 29.89 engineer clerk
+    job         Job_93_74_54 60448 40140 110.69 mate engineer clerk
+    job         Job_28_89_94 60077 30033 28.29
